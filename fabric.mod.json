@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "alz_nebula",
+  "version": "${version}",
+  "name": "ALZ Nebula",
+  "description": "Nebula death and return animation for singleplayer/server.",
+  "authors": ["ALZ HARDCORE"],
+  "environment": "*",
+  "entrypoints": { "main": ["id.alzhardcore.nebula.NebulaMod"] },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
